@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+
+   <group android:checkableBehavior="single">
+
+       <item android:id="@+id/item_navi_more_screen_back_manhinchinh"
+           android:title="Home"
+           app:showAsAction="always"
+           />
+       <item android:id="@+id/item_navi_more_screen_tongquan"
+           android:title="@string/titleOverviewItemMenuNaviMore"
+           app:showAsAction="always"
+           android:checked="true"
+           />
+       <item android:id="@+id/item_navi_more_screen_dacdiemdialy"
+           android:title="@string/titlePhysicCharacteristicItemMenuNaviMore"
+           app:showAsAction="always"
+
+           />
+
+       <item android:id="@+id/item_navi_more_khiquen_manhinchinh"
+           android:title="@string/titlePhysicCharacteristicItemKhiQuyen"
+           app:showAsAction="always"
+           />
+   </group>
+
+</menu>

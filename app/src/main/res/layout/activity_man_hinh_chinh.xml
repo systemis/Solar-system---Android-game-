@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.phamvanthinh.solarsystemforchill.ManHinhChinh"
+    android:orientation="horizontal"
+    android:background="@mipmap/wallpaper_manhinhchinh2">
+
+    <ImageView
+        android:layout_width="@dimen/chieu_rong_sun"
+        android:layout_height="@dimen/chieu_cao_sun"
+        android:id="@+id/ImageView_Sun_ManHinhChinh"
+        android:src="@mipmap/sl4"
+        android:layout_gravity="center"
+        />
+
+       <ImageView
+           android:layout_width="@dimen/chieu_rong_sao_thuy"
+           android:layout_height="@dimen/chieu_cao_sao_thuy"
+           style="@style/StyleViewManhinhchinhPlanet"
+           android:id="@+id/ImageView_Mercury_ManHinhChinh"
+           android:src="@mipmap/saothuy"
+           />
+       <ImageView
+           android:layout_width="@dimen/chieu_rong_sao_venus"
+           android:layout_height="@dimen/chieu_cao_sao_venus"
+           style="@style/StyleViewManhinhchinhPlanet"
+           android:id="@+id/ImageView_Venus_ManHinhChinh"
+           android:src="@mipmap/venus1"
+           />
+
+       <ImageView
+           android:layout_width="@dimen/chieu_rong_traidat"
+           android:layout_height="@dimen/chieu_cao_traidat"
+           style="@style/StyleViewManhinhchinhPlanet"
+           android:id="@+id/ImageView_Earth_ManHinhChinh"
+           android:src="@mipmap/traidat1"
+           />
+
+       <ImageView
+           android:layout_width="@dimen/chieu_rong_sao_hoa"
+           android:layout_height="@dimen/chieu_cao_sao_hoa"
+           style="@style/StyleViewManhinhchinhPlanet"
+           android:id="@+id/Imageview_Mars_ManHinhChinh"
+           android:src="@mipmap/saohoa2"
+           />
+
+       <ImageView
+           android:layout_width="@dimen/chieu_rong_sao_moc"
+           android:layout_height="@dimen/chieu_cao_sao_moc"
+           style="@style/StyleViewManhinhchinhPlanet"
+           android:id="@+id/ImageView_Jupiter_ManHinhChinh"
+           android:src="@mipmap/jupiter1"
+           />
+
+       <ImageView
+           android:layout_width="@dimen/chieu_rong_sao_tho"
+           android:layout_height="@dimen/chieu_cao_sao_tho"
+           style="@style/StyleViewManhinhchinhPlanet"
+           android:id="@+id/ImageView_Saturn_ManHinhChinh"
+           android:src="@mipmap/saturn"
+           />
+
+      <ImageView
+          android:layout_width="@dimen/chieu_rong_sao_uranus"
+          android:layout_height="@dimen/chieu_cao_sao_uranus"
+          style="@style/StyleViewManhinhchinhPlanet"
+          android:id="@+id/ImageView_Uranus_ManHinhChinh"
+          android:src="@mipmap/uranus"
+          />
+
+   <ImageView
+       android:layout_width="@dimen/chieu_rong_sao_neptune"
+       android:layout_height="@dimen/chieu_cao_sao_neptune"
+       style="@style/StyleViewManhinhchinhPlanet"
+       android:id="@+id/ImageView_Neptune_ManHinhChinh"
+       android:src="@mipmap/neptune"
+       />
+
+</LinearLayout>

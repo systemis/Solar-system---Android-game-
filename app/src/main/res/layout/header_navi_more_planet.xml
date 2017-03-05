@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="270dp"
+        android:background="@color/BackgroundHeaderNaviMorePlanetScreen">
+        <ImageView
+            android:layout_width="@dimen/SizeImageLogogHeaderNaviMoreScreenWidth"
+            android:layout_height="@dimen/SizeImageLogogHeaderNaviMoreScreenHeigt"
+            android:layout_centerHorizontal="true"
+            android:src="@mipmap/solar_system"
+            android:id="@+id/imageView_logo_app_header_navi_screenMore"
+            android:layout_marginTop="@dimen/canledpTrenImageViewLogoHeaderNaviMoreScreen"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/titlePlanetNameHeaderNaviMoreScreen"
+            android:text="@string/JupiterName"
+            android:textColor="@color/colorTrang"
+            android:textSize="@dimen/kichthuoc20dp"
+            android:layout_below="@+id/imageView_logo_app_header_navi_screenMore"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/canle10dp"
+            android:typeface="serif"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/titleDanhNgonThienNhien"
+            android:layout_below="@+id/titlePlanetNameHeaderNaviMoreScreen"
+            android:textSize="@dimen/SizeTTextViewDanhNgonHeaderNaviMoreAboutPlanetScreen"
+            android:text="Nếu bạn nhìn đủ sâu, bạn sẽ thấy âm nhạc; trái tim của thiên nhiên là âm nhạc ở khắp nơi."
+            android:textColor="@color/colorTrang"
+            android:gravity="center"
+            android:layout_marginTop="@dimen/canle10dp"
+            />
+    </RelativeLayout>
+
+</LinearLayout>

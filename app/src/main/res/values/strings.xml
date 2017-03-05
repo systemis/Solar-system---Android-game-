@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name">Solar System For Chill</string>
+    <string name="ManHinhChinh_name">Hệ mặt trời</string>
+    <string name="IntroductionProgrammer">Copyright © 2016 Design at Da Nang by Thinh Pham</string>
+    <string name="titleGlossary">Chú thích</string>
+
+
+    <string name="TitleDialogPlanetManHinhChinhEnglishName">Tên tiếng Anh:</string>
+    <string name="TitleDialogPlanetManHinhChinhSPlanet">Diện tích bề mặt:</string>
+    <string name="TitleDialogPlanetManHinhChinhRPlanet">Bán kính trung bình:</string>
+    <string name="TitleDialogPlanetManHinhChinhVPlanet">Thể tích:</string>
+
+
+    <string name="TextButtonDialogIntroductionManHinhChinhMore">Xem thêm</string>
+    <string name="TextButtonDialogIntroductionManHinhChinhExit">Thoát</string>
+
+
+    <string name="MercuryName">Sao thuỷ</string>
+    <string name="VenusName">Sao Kim</string>
+    <string name="EarthName">Trái đất</string>
+    <string name="MarsName">Sao Hoả</string>
+    <string name="JupiterName">Sao Mộc</string>
+    <string name="SaturnName">Sao Thổ</string>
+    <string name="UranusName">Sao Thiên Vương</string>
+    <string name="Neptune">Sao Hải Vương</string>
+
+
+    <string name="MercuryNameE">Mercury</string>
+    <string name="VenusNameE">Venus</string>
+    <string name="EarthNameE">Earth</string>
+    <string name="MarsNameE">Mars</string>
+    <string name="JupiterNameE">Jupiter</string>
+    <string name="SaturnNameE">Saturn</string>
+    <string name="UranusNameE">Uranus</string>
+    <string name="NeptuneE">Neptune</string>
+
+    <string name="OpenTitle">Open</string>
+    <string name="CloseTitle">Close</string>
+
+    <string name="TitleDialogPlanetManHinhChinhmPlanet">Khối lượng:</string>
+    <string name="TitleDialogPlanetManHinhChinhDPlanet">Khối lượng riêng:</string>
+    <string name="TitleDialogPlanetManHinhChinhTDVTC2Planet">Tốc độ vũ trụ cấp 2:</string>
+    <string name="TitleDialogPlanetManHinhChinhCKQPlanet">Chu kỳ quay:</string>
+    <string name="TitleDialogPlanetManHinhChinhVTQTXDPlanet">Vận tốc quay tại xích đạo:</string>
+
+
+    <string name="titleOverviewItemMenuNaviMore">Tổng quan</string>
+    <string name="titlePhysicCharacteristicItemMenuNaviMore">Đặc điểm địa lý</string>
+    <string name="titlePhysicCharacteristicItemKhiQuyen">Khí quyển</string>
+</resources>

@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/wallpaper_manhinhchinh">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/saohoa2"
+            android:layout_gravity="center"
+            android:layout_marginTop="40dp"
+            android:id="@+id/imageAboutPlanetDacDiemDiaLy"
+            />
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    >
+                    <TextView
+                        style="@style/ThemeTitlePSCRTPlanet"
+                        android:layout_marginTop="@dimen/canle25dp"
+                        android:text="@string/TitleDialogPlanetManHinhChinhSPlanet"
+                        />
+
+                    <TextView
+                        style="@style/ThemeTextViewShowValuePSCRTPlanet"
+                        android:layout_marginTop="@dimen/canle25dp"
+                        android:text="74.800.000 KiLoMet Vuông"
+                        android:id="@+id/showSPlanet"
+                        />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    >
+                    <TextView
+                        style="@style/ThemeTitlePSCRTPlanet"
+                        android:text="@string/TitleDialogPlanetManHinhChinhRPlanet"
+                        />
+
+                    <TextView
+                        style="@style/ThemeTextViewShowValuePSCRTPlanet"
+                        android:text="74.800.000 KiLoMet Vuông"
+                        android:id="@+id/showRPlanet"
+                        />
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    >
+                    <TextView
+                        style="@style/ThemeTitlePSCRTPlanet"
+                        android:text="@string/TitleDialogPlanetManHinhChinhVPlanet"
+                        />
+
+                    <TextView
+                        style="@style/ThemeTextViewShowValuePSCRTPlanet"
+                        android:text="74.800.000 KiLoMet Vuông"
+                        android:id="@+id/showVPlanet"
+                        />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    >
+                    <TextView
+                        style="@style/ThemeTitlePSCRTPlanet"
+                        android:text="@string/TitleDialogPlanetManHinhChinhmPlanet"
+                        />
+
+                    <TextView
+                        style="@style/ThemeTextViewShowValuePSCRTPlanet"
+                        android:text="74.800.000 KiLoMet Vuông"
+                        android:id="@+id/showmPlanet"
+                        />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    >
+                    <TextView
+                        style="@style/ThemeTitlePSCRTPlanet"
+                        android:text="@string/TitleDialogPlanetManHinhChinhDPlanet"
+                        />
+
+                    <TextView
+                        style="@style/ThemeTextViewShowValuePSCRTPlanet"
+                        android:text="74.800.000 KiLoMet Vuông"
+                        android:id="@+id/showDPlanet"
+                        />
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    >
+                    <TextView
+                        style="@style/ThemeTitlePSCRTPlanet"
+                        android:text="@string/TitleDialogPlanetManHinhChinhTDVTC2Planet"
+                        />
+
+                    <TextView
+                        style="@style/ThemeTextViewShowValuePSCRTPlanet"
+                        android:text="74.800.000 KiLoMet Vuông"
+                        android:id="@+id/showTDVTC2Planet"
+                        />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    >
+                    <TextView
+                        style="@style/ThemeTitlePSCRTPlanet"
+                        android:text="@string/TitleDialogPlanetManHinhChinhCKQPlanet"
+                        />
+
+                    <TextView
+                        style="@style/ThemeTextViewShowValuePSCRTPlanet"
+                        android:text="74.800.000 KiLoMet Vuông"
+                        android:id="@+id/showChuKyQuayPlanet"
+                        />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    >
+                    <TextView
+                        style="@style/ThemeTitlePSCRTPlanet"
+                        android:text="@string/TitleDialogPlanetManHinhChinhVTQTXDPlanet"
+                        />
+
+                    <TextView
+                        style="@style/ThemeTextViewShowValuePSCRTPlanet"
+                        android:text="74.800.000 KiLoMet Vuông"
+                        android:id="@+id/showVTQTXDPlanet"
+                        />
+
+                </LinearLayout>
+
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+</RelativeLayout>

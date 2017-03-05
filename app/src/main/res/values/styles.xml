@@ -1,0 +1,44 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+    </style>
+
+    <style name="StyleViewManhinhchinhPlanet">
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_marginLeft">@dimen/canledpPhaiViewPlanetManHinhChinh</item>
+    </style>
+
+
+    <style name="StyleTextViewTitleDialogPlanetIntroducion">
+        <item name="android:textSize">@dimen/kicthuoc20dp</item>
+        <item name="android:textColor">@color/colorTrangVery</item>
+        <item name="android:layout_width">@dimen/canle180dp</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+
+    <style name="ThemeTitlePSCRTPlanet">
+        <item name="android:layout_width">@dimen/canle180dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/kichthuoc18dp</item>
+        <item name="android:textColor">@color/colorTrangVery</item>
+        <item name="android:layout_marginTop">@dimen/canle10dp</item>
+        <item name="android:layout_marginLeft">@dimen/canle25dp</item>
+    </style>
+
+    <style name="ThemeTextViewShowValuePSCRTPlanet">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">@dimen/canle10dp</item>
+        <item name="android:textColor">@color/colorTrangVery</item>
+        <item name="android:textSize">@dimen/canle15dp</item>
+    </style>
+
+
+</resources>

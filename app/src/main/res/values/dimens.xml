@@ -1,0 +1,70 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <dimen name="chieuRongLogoMainActivity">140dp</dimen>
+    <dimen name="chieuCaoLogoMainActivity">190dp</dimen>
+    <dimen name="ChieuRongProgressbarMainActivity">50dp</dimen>
+    <dimen name="ChieuCaoProgressbarMainActivity">61dp</dimen>
+    <dimen name="ChieuRongImageButtonZoom">50dp</dimen>
+    <dimen name="ChieuCaoImageButtonZoom">30dp</dimen>
+
+    <dimen name="SizeTextViewIntroducMainActivity">13dp</dimen>
+    <dimen name="SizeTextViewShowPlanerName">22dp</dimen>
+    <dimen name="SizeImageViewDialogIntroductionPlanetManHinhChinh">160dp</dimen>
+    <dimen name="SizeImageHeightViewDialogIntroductionPlanetManHinhChinh">160dp</dimen>
+    <dimen name="SizeImageLogogHeaderNaviMoreScreenWidth">130dp</dimen>
+    <dimen name="SizeImageLogogHeaderNaviMoreScreenHeigt">120dp</dimen>
+    <dimen name="SizeTTextViewDanhNgonHeaderNaviMoreAboutPlanetScreen">13dp</dimen>
+
+    <dimen name="canledpLogoActivity">90dp</dimen>
+    <dimen name="canledpTrenProgressMainActivity">150dp</dimen>
+    <dimen name="canledpTrenTextViewMainActivity">25dp</dimen>
+    <dimen name="canledpPhaiViewPlanetManHinhChinh">15dp</dimen>
+    <dimen name="canledpTrenImageViewLogoHeaderNaviMoreScreen">30dp</dimen>
+    <dimen name="canle35dp">35dp</dimen>
+    <dimen name="canle180dp">180dp</dimen>
+    <dimen name="canle10dp">10dp</dimen>
+    <dimen name="canle25dp">25dp</dimen>
+    <dimen name="canle30dp">30dp</dimen>
+    <dimen name="canle15dp">15dp</dimen>
+    <dimen name="canle13dp">13dp</dimen>
+
+    <dimen name="kicthuoc20dp">20dp</dimen>
+    <dimen name="kicthuoc5dp">5dp</dimen>
+    <dimen name="kichthuoc18dp">18dp</dimen>
+    <dimen name="kichthuoc20dp">20dp</dimen>
+    <dimen name="kichthuoc180dp">180dp</dimen>
+    <dimen name="kichthuoc15dp">15dp</dimen>
+    <dimen name="canle20dp">20dp</dimen>
+
+    <dimen name="chieu_rong_sun">60dp</dimen>
+    <dimen name="chieu_cao_sun">300dp</dimen>
+
+    <dimen name="chieu_rong_sao_thuy">25dp</dimen>
+    <dimen name="chieu_cao_sao_thuy">45dp</dimen>
+
+    <dimen name="chieu_rong_sao_venus">40dp</dimen>
+    <dimen name="chieu_cao_sao_venus">65dp</dimen>
+
+    <dimen name="chieu_rong_traidat">43dp</dimen>
+    <dimen name="chieu_cao_traidat">69dp</dimen>
+
+    <dimen name="chieu_rong_sao_hoa">40dp</dimen>
+    <dimen name="chieu_cao_sao_hoa">65dp</dimen>
+
+    <dimen name="chieu_rong_sao_moc">73dp</dimen>
+    <dimen name="chieu_cao_sao_moc">69dp</dimen>
+
+    <dimen name="chieu_rong_sao_tho">73dp</dimen>
+    <dimen name="chieu_cao_sao_tho">79dp</dimen>
+
+    <dimen name="chieu_rong_sao_uranus">56dp</dimen>
+    <dimen name="chieu_cao_sao_uranus">59dp</dimen>
+
+    <dimen name="chieu_rong_sao_neptune">56dp</dimen>
+    <dimen name="chieu_cao_sao_neptune">59dp</dimen>
+
+
+</resources>

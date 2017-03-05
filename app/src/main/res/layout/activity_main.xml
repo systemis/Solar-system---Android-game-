@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@mipmap/wallpaper_manhinhchinh"
+    tools:context="com.example.phamvanthinh.solarsystemforchill.MainActivity">
+
+    <ImageView
+        android:layout_width="@dimen/chieuRongLogoMainActivity"
+        android:layout_height="@dimen/chieuCaoLogoMainActivity"
+        android:layout_marginTop="@dimen/canledpLogoActivity"
+        android:layout_gravity="center"
+        android:id="@+id/imgLogoMainActivity"
+        android:src="@mipmap/solar_system"
+
+        />
+    <ProgressBar
+        android:layout_width="@dimen/ChieuRongProgressbarMainActivity"
+        android:layout_height="@dimen/ChieuCaoProgressbarMainActivity"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/canledpTrenProgressMainActivity"
+        android:indeterminateDrawable="@drawable/custom_progress_bar_main_activity"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorTrang"
+        android:textSize="@dimen/SizeTextViewIntroducMainActivity"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/canledpTrenTextViewMainActivity"
+        android:text="@string/IntroductionProgrammer"/>
+
+</LinearLayout>
